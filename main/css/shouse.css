@@ -1,0 +1,59 @@
+header{
+    width:100%;
+    background-color: white;
+}
+.header_top{
+    width:100%;
+    height:40px;
+    background-color:whitesmoke;
+}
+.ht_box_wrap{
+    width:1200px;
+    background-color: pink;
+    display:flex;
+    margin:auto;
+    justify-content: space-between;
+    padding:10px;
+    box-sizing: border-box;
+}
+.sns{
+    display:flex;    
+}
+.sns>li{
+    width:20px;
+    height:20px;
+    margin:0 1px;
+    background-color: lightcoral;
+}
+.login{
+    display:flex;
+}
+.login>li{
+    margin:0 1px;
+    background-color: white;
+}
+.Title{
+    width:1200px;
+    background-color: lightblue;
+    margin:auto;
+    padding:10px;
+    box-sizing: border-box;
+}
+.Title>div:first-child{
+    width:155px;
+    height:30px;
+    margin:auto;
+    background-color:white
+}
+.Title>div:last-child{
+    display:flex;
+}
+.Title>div:last-child>div{
+    width:54px;
+    height:40px;
+    background-color: palevioletred;
+}
+.Title>div:last-child>h3{
+    margin-left:10px;
+    background-color: white;
+}
